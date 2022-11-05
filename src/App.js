@@ -10,7 +10,6 @@ const App = (props) => {
   const setDark = () => { setMood(true) }
   const setBright = () => { setMood(false) }
   return (
-    <div className="wrapper">
     <div className={isMoodDark ? "dark" : "bright"}>
       {!isMoodDark
         ? <div onClick={setDark} className="toggle right">
@@ -21,7 +20,6 @@ const App = (props) => {
           <img className="img right" src={sun}/>
           <button className="button"></button>
         </div>}
-    </div>
     </div>
   );
 }
