@@ -1,0 +1,63 @@
+.bright {
+  height: 100vh;
+  background-color: #d6d3d3;
+}
+
+.dark {
+  height: 100vh;
+  background-color: #808080;
+}
+
+.toggle {
+  cursor: pointer;
+  border: 2px solid #028028;
+  width: 60px;
+  height: 30px;
+  border-radius: 100px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.toggle.right {
+  background-color: #808080;
+  transition: .5s;
+}
+.toggle.left {
+  background-color: #d6d3d3;
+  transition: .5s;
+} 
+
+.button {
+  position: relative;
+  transition: .5s;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border-style: inherit;
+  border-color:  #d6d3d3;
+  background: #161616;
+}
+
+.button.moveRight {
+  border-color:  #808080;
+  transform: translateX(30px);
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  transition: .5s
+}
+
+.img.left {
+  position: fixed;
+  top: 27px;
+  right: 57px;
+}
+
+.img.right {
+  position: fixed;
+  top: 27px;
+  right: 27px;
+}
